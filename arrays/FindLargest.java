@@ -7,7 +7,6 @@ package arrays;
 public class FindLargest {
   public static void main(String[] args) {
     int arr[] = { 15, 400, 50, 305, 10 };
-
     int smallest = arr[0];
     int largest = arr[0];
 

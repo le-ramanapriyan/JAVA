@@ -2,7 +2,6 @@ package fundamentals;
 
 // Output:
 // 5 is positive
-// 5 is positive
 
 public class PositiveNegative {
   public static void main(String[] args) {

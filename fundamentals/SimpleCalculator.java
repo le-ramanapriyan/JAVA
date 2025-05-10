@@ -18,7 +18,7 @@ public class SimpleCalculator {
     System.out.print("Enter second number: ");
     int num2 = scanner.nextInt();
 
-    System.out.print("Enter operation (+, -, *, /): ");
+    System.out.print("Enter operation (+, -, *, /, %): ");
     String operation = scanner.next();
 
     switch (operation) {
@@ -37,6 +37,9 @@ public class SimpleCalculator {
         } else {
           System.out.println("Cannot divide by zero");
         }
+        break;
+      case "%":
+        System.out.println("Result: " + (num1 % num2));
         break;
       default:
         System.out.println("Invalid operation");
